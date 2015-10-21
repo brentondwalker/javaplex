@@ -33,7 +33,6 @@ import edu.stanford.math.plex4.utility.ComparisonUtility;
 import edu.stanford.math.primitivelib.autogen.pair.ObjectObjectPair;
 import edu.stanford.math.primitivelib.utility.Infinity;
 import edu.stanford.math.plex4.homology.barcodes.*;
-//public class Vine<T extends Comparable<T>, K extends Comparable<K>> {
 
 
 /**
@@ -48,7 +47,7 @@ import edu.stanford.math.plex4.homology.barcodes.*;
  * the generator can change.  Which is too bad because that superclass provides a bunch of bookkeeping
  * and accessor functionality
  * 
- * I don't think we can implement comparable for this, unless you can decide on a scalar comparison
+ * I don't think we can properly implement comparable for this, unless you can decide on a scalar comparison
  * function for vines.
  * * the comparison fn for intervals looks at infiniteness of endpoints first, then falls
  *   back to comparing the start points
